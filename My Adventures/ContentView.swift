@@ -43,7 +43,6 @@ struct ContentView: View {
                         )
                     }
                 }
-                .onDelete(perform: deleteEntries)
             }
         }
     }
